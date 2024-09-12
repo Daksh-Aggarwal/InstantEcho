@@ -1,3 +1,5 @@
+# WITH ALERTS
+
 import time # for time functions
 import pyperclip as pc # for clipboard access
 import pyautogui # for interactions and alerts
