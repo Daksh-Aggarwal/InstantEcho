@@ -4,7 +4,7 @@ This project is a simple Python program to display a WhatsApp message in the ter
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - `pyautogui`
 - `pyttsx3`
 - `pyperclip`
