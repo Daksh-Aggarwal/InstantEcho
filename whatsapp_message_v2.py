@@ -29,6 +29,10 @@ def random_message():
         # Alert to show the required details
         show_alert(message_details)
 
+    if not message:
+        pyautogui.alert("No message entered!", "Error")
+        # return
+
 # Voice output function
 def voice_output_message(message):
     engine = tts.init()
