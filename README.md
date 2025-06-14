@@ -1,16 +1,17 @@
 # InstantEcho
 
-> A fun Python utility that reads aloud your typed message, simulates sending it, and shows time-stamped alerts.
+> A fun Python utility that reads aloud your typed message, simulates sending it, and shows time-stamped alerts with clipboard support.
 
 ## 🌟 Overview
 
-**InstantEcho** is a mini tool that mimics a message-sending experience. It asks you to input a message, reads it out loud using text-to-speech, and displays the sent and received timestamps in a pop-up alert.
+**InstantEcho** is a mini tool that mimics a message-sending experience. It asks you to input a message, reads it out loud using text-to-speech, copies it to the clipboard, and displays the sent and received timestamps in a pop-up alert.
 
 No external chat apps or messaging APIs—just a standalone simulation for fun or prototyping!
 
 ## 🚀 Features
 
 * 📝 Pop-up message input
+* 🗋 Automatic clipboard copy
 * 🕒 Timestamps for "sent" and "received"
 * 🔊 Instant voice feedback with TTS
 * 🪧 Clean message summary pop-up
@@ -33,7 +34,7 @@ pip install pyautogui pyttsx3 pyperclip
 ### 2. Run the script
 
 ```bash
-python InstantEcho_terminal.py
+python InstantEcho_gui.py
 ```
 
 ### 3. Follow the prompts
@@ -41,6 +42,7 @@ python InstantEcho_terminal.py
 * Enter a message in the pop-up box
 * Listen to it spoken aloud
 * See message info in an alert box
+* Message is auto-copied to your clipboard
 
 ## 📌 Use Cases
 
